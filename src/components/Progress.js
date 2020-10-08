@@ -5,7 +5,7 @@ const ProgressBar = (props) => {
   const style = {
     backgroundColor: bgc,
     position: "absolute",
-    top: "150px",
+    top: "250px",
     left: "150px",
     width: comp * 10,
     height : '30px'
