@@ -3,6 +3,7 @@ import "./App.css";
 import WProgress from "./components/Progress";
 import DigitalClock from "./components/DigitalClock"
 import DropdownAPI from "./components/DropdownAPI"
+import Counter from './components/Counter'
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <WProgress />
       <DigitalClock />
       <DropdownAPI />
+      <Counter />
     </div>
   );
 }
