@@ -1,0 +1,81 @@
+#whole {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#BreadTop {
+  height: 50px;
+  width: 300px;
+  background-color: rgb(244, 155, 47);;
+  margin: 1px;
+  border-radius: 50% / 100%;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+#Salad {
+  height: 50px;
+  width: 300px;
+  background-color: rgb(81, 135, 53);
+  margin: 1px
+}
+#Patty {
+  height: 50px;
+  width: 300px;
+  background-color: rgb(109, 75, 51);
+  margin: 1px
+}
+
+#Sauce {
+  height: 50px;
+  width: 300px;
+  background-color: rgb(232, 63, 64);
+  margin: 1px
+}
+#Cheese {
+  height: 50px;
+  width: 300px;
+  background-color: rgb(253, 209, 129);
+  margin: 1px
+}
+#BreadBottom {
+  height: 50px;
+  width: 300px;
+  background-color: rgb(244, 155, 47);
+  margin: 1px;
+  border-radius: 50% / 100%;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.HiddenText {
+  display: none;
+}
+
+#BreadTop:hover .HiddenText {
+  display: flex;
+  justify-content: center;
+}
+
+#Salad:hover .HiddenText {
+  display: flex;
+  justify-content: center;
+}
+
+#Cheese:hover .HiddenText {
+  display: flex;
+  justify-content: center;
+}
+#BreadBottom:hover .HiddenText {
+  display: flex;
+  justify-content: center;
+}
+
+#Sauce:hover .HiddenText {
+  display: flex;
+  justify-content: center;
+}
+#Patty:hover .HiddenText {
+  display: flex;
+  justify-content: center;
+}
