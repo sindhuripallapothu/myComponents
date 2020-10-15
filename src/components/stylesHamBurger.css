@@ -1,8 +1,13 @@
 #whole {
+  height : 200px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  transition: height 1s;
+}
+#whole:hover {
+  height : 550px
 }
 #BreadTop {
   height: 50px;
