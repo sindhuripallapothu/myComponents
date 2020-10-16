@@ -4,8 +4,7 @@ import "./App.css";
 // import DigitalClock from "./components/DigitalClock"
 // import DropdownAPI from "./components/DropdownAPI"
 // import Counter from './components/Counter'
-import Hamburger from './components/HamBurger'
-
+import CyclicCounter from './components/CyclicCounter'
 function App() {
   return (
     <div className="App">
@@ -13,7 +12,8 @@ function App() {
       <DigitalClock />
       <DropdownAPI />
       <Counter /> */}
-      <Hamburger />
+      {/* <Hamburger /> */}
+      <CyclicCounter />
     </div>
   );
 }
