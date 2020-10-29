@@ -4,7 +4,9 @@ import "./App.css";
 // import DigitalClock from "./components/DigitalClock"
 // import DropdownAPI from "./components/DropdownAPI"
 // import Counter from './components/Counter'
-import CyclicCounter from './components/CyclicCounter'
+// import CyclicCounter from './components/CyclicCounter'
+import CustomerList from './components/List'
+
 function App() {
   return (
     <div className="App">
@@ -13,7 +15,8 @@ function App() {
       <DropdownAPI />
       <Counter /> */}
       {/* <Hamburger /> */}
-      <CyclicCounter />
+      {/* <CyclicCounter /> */}
+      <CustomerList />
     </div>
   );
 }
