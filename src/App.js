@@ -5,7 +5,8 @@ import "./App.css";
 // import DropdownAPI from "./components/DropdownAPI"
 // import Counter from './components/Counter'
 // import CyclicCounter from './components/CyclicCounter'
-import CustomerList from './components/List'
+import Translator from './components/Translator'
+// import CustomerList from './components/List'
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
       <Counter /> */}
       {/* <Hamburger /> */}
       {/* <CyclicCounter /> */}
-      <CustomerList />
+      {/* <CustomerList /> */}
+      <Translator />
     </div>
   );
 }
