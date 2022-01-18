@@ -5,10 +5,14 @@ import "./App.css";
 // import DropdownAPI from "./components/DropdownAPI"
 // import Counter from './components/Counter'
 // import CyclicCounter from './components/CyclicCounter'
-import Translator from './components/Translator'
+// import Translator from './components/Translator'
 // import CustomerList from './components/List'
+// import OpenDoorApp from "./Opendoor";
+// import Form from "./Form";
+import Ramp from "./components/Ramp";
 
 function App() {
+  const inputArr = [1,2,3,4]
   return (
     <div className="App">
       {/* <WProgress />
@@ -18,7 +22,13 @@ function App() {
       {/* <Hamburger /> */}
       {/* <CyclicCounter /> */}
       {/* <CustomerList /> */}
-      <Translator />
+      {/* <Translator /> */}
+      {/* <Form nameOfSurvey="DIABETES"/> */}
+      {/* <OpenDoorApp /> */}
+      {/* <Timer /> */}
+      <Ramp />
+      <Ramp input={inputArr}/>
+      <Ramp input='Ramp Coding Test'/>
     </div>
   );
 }
