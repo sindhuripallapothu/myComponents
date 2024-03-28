@@ -18,7 +18,7 @@ const WProgress = () => {
   const [comp, setComp] = useState(0);
 
   useEffect(() => {
-    setInterval(() => setComp((comp) => Math.min(comp + 1, 100)), 1000);
+    setInterval(() => setComp(() => Math.min(comp + 1, 100)), 1000);
   }, []);
 
   return (
