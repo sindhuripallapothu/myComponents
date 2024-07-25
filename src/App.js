@@ -9,8 +9,11 @@ import "./App.css";
 // import CustomerList from './components/List'
 // import OpenDoorApp from "./Opendoor";
 // import Form from "./Form";
-import Ramp from "./components/Ramp";
-
+// import LoginForm from "./components/MockInterviewComponents/LoginForm";
+// import Ramp from "./components/Ramp";
+import Context from "./components/MockInterviewComponents/Context";
+import Reducer from "./components/MockInterviewComponents/Reducer";
+import WeatherApp from "./components/MockInterviewComponents/WeatherApp";
 function App() {
   const inputArr = [1,2,3,4]
   return (
@@ -26,9 +29,7 @@ function App() {
       {/* <Form nameOfSurvey="DIABETES"/> */}
       {/* <OpenDoorApp /> */}
       {/* <Timer /> */}
-      <Ramp />
-      <Ramp input={inputArr}/>
-      <Ramp input='Ramp Coding Test'/>
+      <WeatherApp />
     </div>
   );
 }
