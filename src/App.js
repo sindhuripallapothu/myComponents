@@ -1,11 +1,10 @@
 import React from "react";
 import "./App.css";
-import OpendoorNew from "./OpendoorNew";
+import PhoneNumber from './components/PracticeComponent/PhoneNumberInput'
 function App() {
-  const inputArr = [1,2,3,4]
   return (
     <div className="App">
-      <OpendoorNew />
+      <PhoneNumber />
     </div>
   );
 }
