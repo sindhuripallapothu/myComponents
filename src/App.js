@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import PhoneNumber from './components/PracticeComponent/PhoneNumberInput'
+import PhoneNumber from './components/PracticeComponents/PhoneNumberInput'
 function App() {
   return (
     <div className="App">
